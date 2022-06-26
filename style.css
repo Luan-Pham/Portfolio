@@ -10,17 +10,22 @@
     margin: 0px;
     padding: 6px 24px;
     text-transform: uppercase;
+    text-align: right;
 
 }
-.menu {background-color: black;
+.menu {
+    position: sticky;
+    top: 0px;
+    background-color: black;
     margin:0px;
     overflow: hidden;}
 
-.menu a{font:menu;
+.menu a{
+    font:menu;
     font-size:20px;
     letter-spacing: 1px;
     text-decoration: none;
-    float:left;
+    float: right;
     display: inline-block;
     color: white;
     text-align: center;
@@ -32,11 +37,16 @@
     color:black;
 }
 
-.background .content{
-    overflow:hidden;
-    background-size:cover;
-    background-position:center;
-    background-image:url(/assets/table.jpg);
+.image-container{
+    position: relative;
+    z-index: -1;
+    top: 0px;
 }
+
+.image-container .image {
+    max-width: 100%;
+    max-height:fit-content;
+}
+
 .content {margin: 25px;
     padding: 40px;}
