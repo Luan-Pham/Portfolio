@@ -44,7 +44,7 @@
 
 .image-container .image {
     max-width: 100%;
-    max-height:fit-content;
+    min-height: 100vh;
 }
 
 .content {margin: 25px;
