@@ -86,15 +86,16 @@
     grid-auto-rows: 250px;
 }
 
+
 .square {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
+    background-color: black;
     font-size: 2rem;
     text-align: center;
-    color: black;
+    color: white;
     height:100%;
     width:100%;
     border-radius: 5px;
@@ -116,3 +117,24 @@
   }
 
 #project-1 {background-image: url(./assets/homework.jpg);}
+
+#project-2 {background-image: url(./assets/building.jpg);}
+
+#project-3 {background-image: url(./assets/lake.jpg);}
+
+#project-4 {background-image: url(./assets/birdie.jpg);}
+
+h2 {font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;}
+
+.contact {
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
