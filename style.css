@@ -1,7 +1,11 @@
 * {box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;}
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif }
+
+.header{
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .greeting {
     background-color:black;
@@ -58,8 +62,10 @@
 .bio {
     width: 50%;
     height: 300px;
-    margin: 5px;
+    margin-top: 30px;
     text-align: center;
+    font-size: 20px;
+
 }
 
 .photo-container{
@@ -137,4 +143,5 @@ h2 {font-size: 40px;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+    font-size: 30px;
 }
