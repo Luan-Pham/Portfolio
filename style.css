@@ -114,7 +114,7 @@
     background-color: black;
     font-size: 2rem;
     text-align: center;
-    color: white;
+    color: black;
     height: 100%;
     width: 100%;
     border-radius: 5px;
@@ -140,7 +140,7 @@
 }
 
 #project-2 {
-    background-image: url(./assets/building.jpg);
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/d/d1/Marvel_Entertainment_Logo_%282002%29.jpg/revision/latest?cb=20190325210454);
 }
 
 #project-3 {
