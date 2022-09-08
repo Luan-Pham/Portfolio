@@ -1,170 +1,170 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-    
+
 .header {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .greeting {
-    background-color: black;
-    color: white;
-    font-size: 36px;
-    margin: 0px;
-    padding: 6px 24px;
-    text-transform: uppercase;
-    text-align: right;
-
+  background-color: black;
+  color: white;
+  font-size: 36px;
+  margin: 0px;
+  padding: 6px 24px;
+  text-transform: uppercase;
+  text-align: right;
 }
 
 .menu {
-    position: sticky;
-    top: 0px;
-    background-color: black;
-    margin: 0px;
-    overflow: hidden;
+  position: sticky;
+  top: 0px;
+  background-color: black;
+  margin: 0px;
+  overflow: hidden;
 }
 
 .menu a {
-    font: menu;
-    font-size: 20px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 16px 24px;
+  font: menu;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 16px 24px;
 }
 
 .menu a:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .image-container {
-    position: relative;
-    z-index: -1;
-    top: 0px;
+  position: relative;
+  z-index: -1;
+  top: 0px;
 }
 
 .image-container .image {
-    max-width: 100%;
-    min-height: 100vh;
+  max-width: 100%;
+  min-height: 100vh;
 }
 
 .content {
-    margin: 25px;
-    padding: 40px;
+  margin: 25px;
+  padding: 40px;
 }
 
 .about {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: auto;
 }
 
-@media (max-width:740px){
-    .about{display: block;
-    font-size: 12px;}
+@media (max-width: 740px) {
+  .about {
+    display: block;
+    font-size: 12px;
+  }
 }
 
 .bio {
-    width: 50%;
-    height: 300px;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 25px;
-
+  width: 50%;
+  height: 300px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .photo-container {
-    margin: 5px;
-    width: 50%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
+  margin: 5px;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .photo-container img {
-    margin: 5px;
-    padding: 20px;
-    width: auto;
-    height: 300px;
-    border-radius: 30px;
-    object-fit: contain;
+  margin: 5px;
+  padding: 20px;
+  width: auto;
+  height: 300px;
+  border-radius: 30px;
+  object-fit: contain;
 }
 
 .project-grid {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: 250px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
 }
 
-
 .square {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    font-size: 2rem;
-    text-align: center;
-    color: black;
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: relative;
 }
 
 .link {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 #project-1 {
-    background-image: url(./assets/homework.jpg);
+  background-image: url(./assets/homework.jpg);
 }
 
 #project-2 {
-    background-image: url(https://static.wikia.nocookie.net/logopedia/images/d/d1/Marvel_Entertainment_Logo_%282002%29.jpg/revision/latest?cb=20190325210454);
+  background-image: url(./assets/marvel_logo.png);
 }
 
 #project-3 {
-    background-image: url(./assets/lake.jpg);
+  background-image: url(./assets/lake.jpg);
 }
 
 #project-4 {
-    background-image: url(./assets/birdie.jpg);
+  background-image: url(./assets/birdie.jpg);
 }
 
 h2 {
-    font-size: 40px;
-    font-weight: 400;
-    text-align: center;
-    margin: 10px;
-    padding: 5px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
 }
 
 .contact {
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 30px;
 }
